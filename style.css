@@ -1,0 +1,141 @@
+body {
+  font-family: Poppins;
+}
+
+h1 {
+  font-family: Poppins;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+
+.offcanvas {
+  flex-direction: row;
+}
+
+.nav-link {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #F18234;
+}
+
+.nav-link:hover {
+  color: #F18234;
+}
+
+.badge {
+  background-color: #F18234;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.outline-btn {
+  border: 1px solid #060c22;
+  background-color: transparent;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 18px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.outline-btn:hover {
+  background-color: #060c22;
+  color: #fff;
+}
+
+.custom-btn {
+  background-color: #F18234;
+  border: 1px solid #F18234;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 18px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.custom-btn:hover {
+  background-color: #cb6c28;
+  color: #fff;
+}
+
+.bi-bag {
+  color: #F18234;
+}
+
+#home {
+  height: 100vh;
+  background-image: url(/images/home.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home1 {
+  background: linear-gradient(270deg, rgba(0, 0, 37, 0.00) 0%, #000025 95.14%);
+
+}
+
+
+@media (max-width: 992px) {
+
+  /* .outline-btn,
+  .custom-btn {
+    margin-top: 14px;
+  } */
+
+  .offcanvas {
+    flex-direction: column;
+    padding: 14px 32px;
+
+  }
+
+  .nav-item {
+    padding: 14px 0;
+    border-bottom: 1px solid #707070;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    /* padding: 14px 32px; */
+  }
+
+  .bi-bag {
+    display: none;
+  }
+
+  .dropdown-item {
+    padding-left: 0;
+    padding-bottom: 14px;
+
+  }
+
+  .dropdown-menu {
+    border: 0;
+  }
+
+}
