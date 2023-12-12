@@ -27,78 +27,37 @@
 </head>
 
 <body>
-  <nav class="container-fluid navbar navbar-expand-lg border-bottom bg-white">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="logo.svg" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header p-0">
-          <a class="" href="#">
-            <img src="logo.svg" alt="logo">
-          </a>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Programs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Camps</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Others
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Makeup classes</a></li>
-              <li><a class="dropdown-item" href="#">Semester Dates</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Contact us</a>
-          </li>
-        </ul>
-        <div class="d-flex align-items-end">
-          <a class="position-relative bi bi-bag fs-5 me-4">
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill">
-              9
-              <span class="visually-hidden">unread messages</span>
-            </span>
-          </a>
-          <button class="outline-btn  me-2" type="button">Parent Login</button>
-          <button class="custom-btn" type="button">Free trial classes</button>
-        </div>
-      </div>
-    </div>
-  </nav>
+
   <section id="home" class="">
     <div class="d-flex align-items-center h-100 home1">
       <div class="d-block text-white container">
         <div class="d-flex">
-          <div class="d-flex align-items-center text-black bg-white px-3 py-2 rounded-pill mb-5">
-            <button class="me-3 rounded-pill custom-btn px-4 py-1">
+          <div class="d-flex align-items-center text-black bg-white mb-5 new-div d-none d-sm-flex">
+            <button class="me-3 rounded-btn">
               New
             </button>
-            <p class="m-0">
+            <p class="m-0 d-none d-lg-block">
               Hurry! Just a Few Seats Left for Our November 4, 2023 Robotics Free Trial!
+            </p>
+            <p class="m-0 d-lg-none">
+              Kick start your children career in Robotics
             </p>
           </div>
         </div>
-        <h1 class="">
+        <h1 class="d-none d-sm-block">
           Exceed robotics
         </h1>
-        <p>
+        <h1 class="d-sm-none">
+          Best Learning
+          Platform for Robotics
+        </h1>
+        <p class="d-none d-sm-block">
           Our STEM Programs teach kids coding, robotics, and artificial intelligence through <br>
           fun and safe environment for them to enjoy learning these skills.
+        </p>
+        <p class="d-sm-none">
+          We designed Connections Academy to give students
+          a good future where they learn with fun
         </p>
         <button class="custom-btn mt-5">
           Explore Programs
@@ -106,7 +65,208 @@
       </div>
     </div>
   </section>
-  
+
+  <section id="section-2" class="container">
+    <div class="d-block">
+      <h3 class="">Why we are <span class="skyblue">Best</span></h3>
+      <div class="d-flex overflow-auto">
+        <div class="custom-card card-1 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/project.png" alt="" srcset="">
+                </div>
+                <h4>Hands-on projects </h4>
+                <p class="gray show">Your child's creativity comes to life through building and programming Lego
+                  robots. They'll
+                  learn the basics of engineering and coding while having a blast.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-2 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/Teacher.png" alt="" srcset="">
+                </div>
+                <h4>#1 Instructors </h4>
+                <p class="gray show">
+                  Our team comprises experienced educators, industry professionals, and enthusiasts who are passionate
+                  about nurturing the next generation of tech-savvy leaders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-3 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/college.png" alt="" srcset="">
+                </div>
+                <h4>After school Programs</h4>
+                <p class="gray show">
+                  We offer a well-structured and comprehensive curriculums that covers a wide range of robotics and
+                  coding
+                  topics, catering to all skill levels, from beginners to advanced learners.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-4 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/code.png" alt="" srcset="">
+                </div>
+                <h4>Fun and Engaging Learning</h4>
+                <p class="gray show">
+                  Learning at Exceed Robotics is not just about education; We believe that a joyful, engaging
+                  environment
+                  fosters a love for robotics and coding.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-5 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/code.png" alt="" srcset="">
+                </div>
+                <h4>Industry-Relevant Skills</h4>
+                <p class="gray show">
+                  We focus on teaching skills that are relevant to current industry demands and to explore their
+                  creativity. Our curriculum prepares them for success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-6 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/code.png" alt="" srcset="">
+                </div>
+                <h4>Project-Based Learning</h4>
+                <p class="gray show">
+                  Our approach revolves around project-based learning, enabling students to apply their knowledge by
+                  working
+                  on exciting projects.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-card card-7 me-3 col-3">
+          <div class="h-100 d-flex alig-items-end">
+            <div class="w-100 mt-auto card-content">
+              <div class="d-block">
+                <div class="custom-icon show">
+                  <img class="w-100" src="images/code.png" alt="" srcset="">
+                </div>
+                <h4>Parental Involvement</h4>
+                <p class="gray show">
+                  We value the partnership with parents and keep them informed about their child's progress. We believe
+                  that
+                  communication is essential for a student's success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-3">
+    <div class="container">
+      <h3 class="text-lg-center">Explore <span class="primary-color">Programs</span></h3>
+
+      <div class="programs overflow-auto">
+        <div class="program-card program-card-1 col-4 pe-sm-4">
+          <div class="d-block">
+            <div class="img-div">
+              <div class="d-flex justify-content-end age">
+                <div class="age-div">
+                  <p class="m-0">Age: 7 - 15</p>
+                </div>
+              </div>
+              <img class="w-100" src="images/program-card-1.png" alt="">
+            </div>
+            <div class="program-card-content">
+              <h4>Robotics</h4>
+              <p class="gray m-0">Our STEM-based curriculum, where students learn Coding, 3D Printing, and Electronics
+                from </p>
+              <p class="show gray"> beginners to
+                advanced levels, allowing them to create their own smart robots. Our robotics education empowers
+                students
+                to design, build, and program robots, enhancing their engineering and computer programming skills.
+              </p>
+            </div>
+            <button class="view-btn">View program</button>
+          </div>
+        </div>
+        <div class="program-card program-card-1 col-4 pe-sm-4">
+          <div class="d-block">
+            <div class="img-div">
+              <div class="d-flex justify-content-end age">
+                <div class="age-div">
+                  <p class="m-0">Age: 7 - 15</p>
+                </div>
+              </div>
+              <img class="w-100" src="images/program-card-1.png" alt="">
+            </div>
+            <div class="program-card-content">
+              <h4>Robotics</h4>
+              <p class="gray m-0">Our STEM-based curriculum, where students learn Coding, 3D Printing, and Electronics
+                from </p>
+              <p class="show gray"> beginners to
+                advanced levels, allowing them to create their own smart robots. Our robotics education empowers
+                students
+                to design, build, and program robots, enhancing their engineering and computer programming skills.
+              </p>
+            </div>
+            <button class="view-btn">View program</button>
+          </div>
+        </div>
+        <div class="program-card program-card-1 col-4 pe-sm-4">
+          <div class="d-block">
+            <div class="img-div">
+              <div class="d-flex justify-content-end age">
+                <div class="age-div">
+                  <p class="m-0">Age: 7 - 15</p>
+                </div>
+              </div>
+              <img class="w-100" src="images/program-card-1.png" alt="">
+            </div>
+            <div class="program-card-content">
+              <h4>Robotics</h4>
+              <p class="gray m-0">Our STEM-based curriculum, where students learn Coding, 3D Printing, and Electronics
+                from </p>
+              <p class="show gray"> beginners to
+                advanced levels, allowing them to create their own smart robots. Our robotics education empowers
+                students
+                to design, build, and program robots, enhancing their engineering and computer programming skills.
+              </p>
+            </div>
+            <button class="view-btn">View program</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
